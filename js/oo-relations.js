@@ -42,11 +42,3 @@ var max = new Dog("Max", 3, false, sam);
 
 var josh = new Owner("Josh");
 var annie = new Dog("Annie", 1, false, josh);
-
-
-// Simplified example.
-function Person(fname) {
-  this.fname = fname;
-}
-var pete = new Person("Pete");
-var mary = new Person("Mary");
